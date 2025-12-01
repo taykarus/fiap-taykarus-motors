@@ -87,8 +87,6 @@ public class Vehicle {
     }
 
     public void markAsSold() {
-        validateActive();
-
         if (this.status == VehicleStatus.SOLD) {
             throw new VehicleAlreadySoldException("Vehicle is already marked as sold.");
         }
