@@ -1,4 +1,4 @@
-package br.com.fiap.taykarus.motors.application.ports.in.dto;
+package br.com.fiap.taykarus.motors.application.port.in.dto;
 
 import java.math.BigDecimal;
 import java.util.UUID;

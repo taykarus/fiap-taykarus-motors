@@ -1,9 +1,9 @@
 package br.com.fiap.taykarus.motors.infrastructure.config;
 
-import br.com.fiap.taykarus.motors.application.ports.in.ManageVehicleUseCase;
-import br.com.fiap.taykarus.motors.application.ports.in.SaleUseCase;
-import br.com.fiap.taykarus.motors.application.ports.out.SaleRepository;
-import br.com.fiap.taykarus.motors.application.ports.out.VehicleRepository;
+import br.com.fiap.taykarus.motors.application.port.in.ManageVehicleUseCase;
+import br.com.fiap.taykarus.motors.application.port.in.SaleUseCase;
+import br.com.fiap.taykarus.motors.application.port.out.SaleRepository;
+import br.com.fiap.taykarus.motors.application.port.out.VehicleRepository;
 import br.com.fiap.taykarus.motors.application.service.SaleService;
 import br.com.fiap.taykarus.motors.application.service.VehicleService;
 import org.springframework.context.annotation.Bean;

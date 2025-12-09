@@ -1,6 +1,6 @@
-package br.com.fiap.taykarus.motors.application.ports.in;
+package br.com.fiap.taykarus.motors.application.port.in;
 
-import br.com.fiap.taykarus.motors.application.ports.in.dto.SellVehicleCommand;
+import br.com.fiap.taykarus.motors.application.port.in.dto.SellVehicleCommand;
 
 import java.util.UUID;
 

@@ -1,7 +1,7 @@
 package br.com.fiap.taykarus.motors.adapter.in.web;
 
-import br.com.fiap.taykarus.motors.application.ports.in.SaleUseCase;
-import br.com.fiap.taykarus.motors.application.ports.in.dto.SellVehicleCommand;
+import br.com.fiap.taykarus.motors.application.port.in.SaleUseCase;
+import br.com.fiap.taykarus.motors.application.port.in.dto.SellVehicleCommand;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

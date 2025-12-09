@@ -2,7 +2,7 @@ package br.com.fiap.taykarus.motors.adapter.out.persistence;
 
 import br.com.fiap.taykarus.motors.adapter.out.persistence.entity.SaleEntity;
 import br.com.fiap.taykarus.motors.adapter.out.persistence.repository.SpringDataSaleRepository;
-import br.com.fiap.taykarus.motors.application.ports.out.SaleRepository;
+import br.com.fiap.taykarus.motors.application.port.out.SaleRepository;
 import br.com.fiap.taykarus.motors.domain.common.Price;
 import br.com.fiap.taykarus.motors.domain.sale.Cpf;
 import br.com.fiap.taykarus.motors.domain.sale.Sale;

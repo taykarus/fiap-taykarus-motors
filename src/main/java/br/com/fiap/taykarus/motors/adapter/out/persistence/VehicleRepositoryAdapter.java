@@ -4,7 +4,7 @@ import br.com.fiap.taykarus.motors.adapter.out.persistence.entity.AuditLogEntity
 import br.com.fiap.taykarus.motors.adapter.out.persistence.entity.VehicleEntity;
 import br.com.fiap.taykarus.motors.adapter.out.persistence.repository.SpringDataLogRepository;
 import br.com.fiap.taykarus.motors.adapter.out.persistence.repository.SpringDataVehicleRepository;
-import br.com.fiap.taykarus.motors.application.ports.out.VehicleRepository;
+import br.com.fiap.taykarus.motors.application.port.out.VehicleRepository;
 import br.com.fiap.taykarus.motors.domain.common.ModificationLog;
 import br.com.fiap.taykarus.motors.domain.common.Price;
 import br.com.fiap.taykarus.motors.domain.vehicle.Color;
