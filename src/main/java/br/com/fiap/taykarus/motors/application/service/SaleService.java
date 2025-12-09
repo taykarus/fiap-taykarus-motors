@@ -11,12 +11,12 @@ import br.com.fiap.taykarus.motors.domain.vehicle.Vehicle;
 
 import java.util.UUID;
 
-public class SellService implements SaleUseCase {
+public class SaleService implements SaleUseCase {
 
     private final VehicleRepository vehicleRepository;
     private final SaleRepository saleRepository;
 
-    public SellService(VehicleRepository vehicleRepository, SaleRepository saleRepository) {
+    public SaleService(VehicleRepository vehicleRepository, SaleRepository saleRepository) {
         this.vehicleRepository = vehicleRepository;
         this.saleRepository = saleRepository;
     }
@@ -38,5 +38,30 @@ public class SellService implements SaleUseCase {
         vehicleRepository.save(vehicle);
 
         return sale.getId();
+    }
+
+    @Override
+    public void confirmSale(UUID saleId) {
+        Sale sale = saleRepository.findById(saleId)
+                .orElseThrow(() -> new IllegalArgumentException("Sale not found"));
+
+        sale.confirm();
+
+        saleRepository.save(sale);
+    }
+
+    @Override
+    public void cancelSale(UUID saleId) {
+        Sale sale = saleRepository.findById(saleId)
+                .orElseThrow(() -> new IllegalArgumentException("Sale not found"));
+
+        Vehicle vehicle = vehicleRepository.findById(sale.getVehicleId())
+                .orElseThrow(() -> new IllegalStateException("Associated vehicle not found"));
+
+        sale.cancel();
+        vehicle.markAvailable();
+
+        saleRepository.save(sale);
+        vehicleRepository.save(vehicle);
     }
 }
