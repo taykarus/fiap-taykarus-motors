@@ -29,7 +29,6 @@ public class VehicleController {
 
     @PutMapping("/{id}")
     public ResponseEntity<VehicleDTO> edit(@PathVariable UUID id, @RequestBody EditVehicleCommand command) {
-        // Ensure ID in command matches path
         EditVehicleCommand safeCommand = new EditVehicleCommand(
                 id,
                 command.brand(),
