@@ -1,4 +1,4 @@
-package br.com.fiap.taykarus.motors;
+package br.com.fiap.taykarus.motors.infrastructure;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
