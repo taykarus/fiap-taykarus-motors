@@ -51,6 +51,10 @@ Lorem ipsum
     - **Miro**: Explore o quadro colaborativo no Miro para mais
       detalhes: [Taykarus Motors - Event Storming](https://miro.com/app/board/uXjVJjaCVrg=/).
 
+- **Coleção Postman**: Utilize a coleção disponível em [
+  `docs/Taykarus_Motors.postman_collection.json`](./docs/Taykarus_Motors.postman_collection.json) para facilitar o uso e a validação das
+  APIs.
+
 ---
 
 ## Autor
