@@ -1,9 +1,9 @@
 package br.com.fiap.taykarus.motors.adapter.in.web;
 
-import br.com.fiap.taykarus.motors.application.ports.in.ManageVehicleUseCase;
-import br.com.fiap.taykarus.motors.application.ports.in.dto.EditVehicleCommand;
-import br.com.fiap.taykarus.motors.application.ports.in.dto.RegisterVehicleCommand;
-import br.com.fiap.taykarus.motors.application.ports.in.dto.VehicleDTO;
+import br.com.fiap.taykarus.motors.application.port.in.ManageVehicleUseCase;
+import br.com.fiap.taykarus.motors.application.port.in.dto.EditVehicleCommand;
+import br.com.fiap.taykarus.motors.application.port.in.dto.RegisterVehicleCommand;
+import br.com.fiap.taykarus.motors.application.port.in.dto.VehicleDTO;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

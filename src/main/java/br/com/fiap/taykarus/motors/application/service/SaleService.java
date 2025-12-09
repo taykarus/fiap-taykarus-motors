@@ -1,9 +1,9 @@
 package br.com.fiap.taykarus.motors.application.service;
 
-import br.com.fiap.taykarus.motors.application.ports.in.SaleUseCase;
-import br.com.fiap.taykarus.motors.application.ports.in.dto.SellVehicleCommand;
-import br.com.fiap.taykarus.motors.application.ports.out.SaleRepository;
-import br.com.fiap.taykarus.motors.application.ports.out.VehicleRepository;
+import br.com.fiap.taykarus.motors.application.port.in.SaleUseCase;
+import br.com.fiap.taykarus.motors.application.port.in.dto.SellVehicleCommand;
+import br.com.fiap.taykarus.motors.application.port.out.SaleRepository;
+import br.com.fiap.taykarus.motors.application.port.out.VehicleRepository;
 import br.com.fiap.taykarus.motors.domain.common.Price;
 import br.com.fiap.taykarus.motors.domain.sale.Cpf;
 import br.com.fiap.taykarus.motors.domain.sale.Sale;

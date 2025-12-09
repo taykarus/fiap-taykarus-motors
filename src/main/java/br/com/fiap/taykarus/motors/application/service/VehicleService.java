@@ -1,10 +1,10 @@
 package br.com.fiap.taykarus.motors.application.service;
 
-import br.com.fiap.taykarus.motors.application.ports.in.ManageVehicleUseCase;
-import br.com.fiap.taykarus.motors.application.ports.in.dto.EditVehicleCommand;
-import br.com.fiap.taykarus.motors.application.ports.in.dto.RegisterVehicleCommand;
-import br.com.fiap.taykarus.motors.application.ports.in.dto.VehicleDTO;
-import br.com.fiap.taykarus.motors.application.ports.out.VehicleRepository;
+import br.com.fiap.taykarus.motors.application.port.in.ManageVehicleUseCase;
+import br.com.fiap.taykarus.motors.application.port.in.dto.EditVehicleCommand;
+import br.com.fiap.taykarus.motors.application.port.in.dto.RegisterVehicleCommand;
+import br.com.fiap.taykarus.motors.application.port.in.dto.VehicleDTO;
+import br.com.fiap.taykarus.motors.application.port.out.VehicleRepository;
 import br.com.fiap.taykarus.motors.domain.common.Price;
 import br.com.fiap.taykarus.motors.domain.vehicle.Color;
 import br.com.fiap.taykarus.motors.domain.vehicle.ModelYear;

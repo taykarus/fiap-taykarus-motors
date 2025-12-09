@@ -1,4 +1,4 @@
-package br.com.fiap.taykarus.motors.application.ports.out;
+package br.com.fiap.taykarus.motors.application.port.out;
 
 import br.com.fiap.taykarus.motors.domain.sale.Sale;
 

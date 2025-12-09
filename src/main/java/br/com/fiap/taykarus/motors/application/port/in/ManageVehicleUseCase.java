@@ -1,8 +1,8 @@
-package br.com.fiap.taykarus.motors.application.ports.in;
+package br.com.fiap.taykarus.motors.application.port.in;
 
-import br.com.fiap.taykarus.motors.application.ports.in.dto.EditVehicleCommand;
-import br.com.fiap.taykarus.motors.application.ports.in.dto.RegisterVehicleCommand;
-import br.com.fiap.taykarus.motors.application.ports.in.dto.VehicleDTO;
+import br.com.fiap.taykarus.motors.application.port.in.dto.EditVehicleCommand;
+import br.com.fiap.taykarus.motors.application.port.in.dto.RegisterVehicleCommand;
+import br.com.fiap.taykarus.motors.application.port.in.dto.VehicleDTO;
 
 import java.util.List;
 import java.util.UUID;
