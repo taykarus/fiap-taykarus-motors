@@ -1,4 +1,4 @@
-package br.com.fiap.taykarus.motors;
+package br.com.fiap.taykarus.motors.infrastructure;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
